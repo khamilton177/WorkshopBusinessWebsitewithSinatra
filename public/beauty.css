@@ -20,6 +20,32 @@ li{
 }
 
 footer{
+  position: relative;
+  bottom: 1200px;
   height: 80px;
   background: #d89d81;
+}
+
+.potion9 {
+  display: inline-block;
+  border: 2px solid black;
+  width: 400px;
+  height: 600px;
+  top: 50px;
+}
+
+.penetraitt {
+  display: inline-block;
+  border: 2px solid black;
+  width: 400px;
+  height: 600px;
+  margin-left: 20px;
+}
+#p1 {
+  text-align: center;
+}
+#img2 {
+  text-align: center;
+  width: 250px;
+  height: 300px;
 }
