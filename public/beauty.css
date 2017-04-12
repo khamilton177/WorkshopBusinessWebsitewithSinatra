@@ -1,0 +1,25 @@
+header{
+  height: 80px;
+  background: #d89d81;
+  color: white;
+}
+
+#home_main{
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+
+#home_h2{
+  text-align: center;
+  color: white;
+}
+
+li{
+  display: inline-block;
+}
+
+footer{
+  height: 80px;
+  background: #d89d81;
+}

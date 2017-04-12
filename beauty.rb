@@ -1,17 +1,22 @@
 require "sinatra"
 
 get "/" do
-        erb :home
+  erb :home
 end
 
 get "/Gallery" do
-        erb :gallery
+  erb :gallery
 end
 
 get "/product" do
-        erb :product
+  erb :product
 end
 
 get "/Contact" do
-        erb :contact
+  erb :contact_form
+end
+
+post "/form-response" do
+  params.inspect
+  redirect "/Contact"
 end
