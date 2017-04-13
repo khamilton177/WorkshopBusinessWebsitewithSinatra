@@ -1,26 +1,74 @@
+/*Layouts elements*/
+body{
+  font-family: Lato;
+}
 header{
+  position: fixed;
+  top: 0px;
+  z-index: 900px;
+  display: block;
+  width: 100%;
   height: 80px;
   background: #d89d81;
   color: white;
 }
 
-#home_main{
-  height: 400px;
-  text-align: center;
-  color: white;
+#lay_container{
+  position: absolute;
+  top: 0px;
+
 }
 
-#home_h2{
-  text-align: center;
-  color: white;
+#lay_nav{
+  margin: 0;
+  width: 100%;
+  height: 75px;
 }
 
-li{
+#lay_ul{
   display: inline-block;
+  max-width: 1000px;
+  margin-top: 32px;
+  text-decoration: none;
+}
+
+.lay_li{
+  display: inline-block;
+  padding-right: 100px;
+  font-family: Lato;
+  font-size: 24px;
+}
+
+.lay_a{
+  text-decoration: none;
+  color: white;
+}
+
+#lay_btn{
+  width: 100px;
+  height: 60px;
+  margin: 16px;
+  float: right;
+  border: solid thin white;
+  border-radius: 20px;
+  background-color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  color: black;
+}
+
+#lay_main{
+  position: relative;
+  top: 120px;
+  width: 100vw;
+  overflow-y: hidden;
 }
 
 footer{
   position: relative;
+<<<<<<< HEAD
   /*bottom: 1200px;
   height: 800px;*/
   background: #d89d81;
@@ -52,3 +100,58 @@ footer{
   width: 250px;
   height: 300px;*/
 /*}*/
+=======
+  top: 800px;
+  height: 80px;
+  background: #d89d81;
+}
+
+/*Home page element */
+#home_main{
+  position: relative;
+  top: 0px;
+  width: 100vw;
+  overflow-y: hidden;
+  height: 800px;
+  font-family: Lato;
+  text-align: center;
+  color: white;
+}
+
+#home_h1{
+  margin: 0px 0px 40px 0px;
+  font-family: Lato;
+  /*font-size: 24px;*/
+  text-align: center;
+  color: black;
+}
+
+/*Contact Form element */
+
+#cnt_form{
+  position: fixed;
+  margin: 50px;
+}
+
+.cnt_labels{
+  padding-right: 5px;
+}
+
+.cnt_input{
+  margin-right: 10px;
+}
+
+#cnt_subject{
+
+}
+
+#cnt_msg, #cnt_msg_lbl{
+  display: block;
+  margin: 5px 0 10px 0;
+  padding-right: 10px;
+}
+
+#cnt_submit{
+  margin-left: 12%;
+}
+>>>>>>> 2fe1ac62ded49d369e9be1ff738f67b1f54c0c6c
