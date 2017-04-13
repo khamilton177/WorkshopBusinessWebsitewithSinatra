@@ -150,6 +150,49 @@ footer{
 }
 
 /*Product page elements*/
+#pro_img0, #pro_img1, #pro_img2, #pro_img5, #pro_img6, #pro_img7, #pro_img8, #pro_img9, #pro_img10, #pro_img11, #pro_img12, #pro_img13 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 660px;
+}
+
+#pro_img3 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: 660px;
+}
+
+#pro_img4 {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  left: 660px;
+}
 
 
 /*Gallery page elements*/
+
+h2 {
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+#gall_img1 {
+  margin-top: 0px;
+  position: relative;
+  top: -200px;
+  width: 100%;
+  height: 400px;
+  background-image: url("/images/floatingpic.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  right: -55px;
+}
