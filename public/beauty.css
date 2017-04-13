@@ -1,4 +1,7 @@
 /*Layouts elements*/
+body{
+  font-family: Lato;
+}
 header{
   position: fixed;
   top: 0px;
@@ -58,7 +61,7 @@ header{
 
 #lay_main{
   position: relative;
-  top: 80px;
+  top: 120px;
   width: 100vw;
   overflow-y: hidden;
 }
@@ -70,11 +73,10 @@ footer{
   background: #d89d81;
 }
 
-
 /*Home page element */
 #home_main{
   position: relative;
-  top: 80px;
+  top: 0px;
   width: 100vw;
   overflow-y: hidden;
   height: 800px;
@@ -84,8 +86,38 @@ footer{
 }
 
 #home_h1{
+  margin: 0px 0px 40px 0px;
   font-family: Lato;
   /*font-size: 24px;*/
   text-align: center;
   color: black;
+}
+
+/*Contact Form element */
+
+#cnt_form{
+  position: fixed;
+  margin: 50px;
+}
+
+.cnt_labels{
+  padding-right: 5px;
+}
+
+.cnt_input{
+  margin-right: 10px;
+}
+
+#cnt_subject{
+
+}
+
+#cnt_msg, #cnt_msg_lbl{
+  display: block;
+  margin: 5px 0 10px 0;
+  padding-right: 10px;
+}
+
+#cnt_submit{
+  margin-left: 12%;
 }
