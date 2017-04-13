@@ -3,7 +3,7 @@ body{
   font-family: Lato;
 }
 header{
-  position: fixed;
+  position: relative;
   top: 0px;
   z-index: 900px;
   display: block;
@@ -46,8 +46,9 @@ header{
 
 #lay_btn{
   width: 100px;
-  height: 60px;
+  height: 55px;
   margin: 16px;
+  padding-top: 5px;
   float: right;
   border: solid thin white;
   border-radius: 20px;
@@ -61,7 +62,7 @@ header{
 
 #lay_main{
   position: relative;
-  top: 120px;
+  top: 0px;
   width: 100vw;
   overflow-y: hidden;
 }
@@ -93,11 +94,18 @@ footer{
   color: black;
 }
 
+#home_p{
+  font-family: Lato;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
 /*Contact Form element */
 
 #cnt_form{
   position: fixed;
-  margin: 50px;
+  margin: 25px;
 }
 
 .cnt_labels{
