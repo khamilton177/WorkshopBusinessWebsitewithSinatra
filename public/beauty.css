@@ -1,6 +1,6 @@
 /*Layouts elements*/
 body{
-  font-family: Lato;
+  font-family: 'Cinzel', serif;
 }
 header{
   position: relative;
@@ -9,7 +9,7 @@ header{
   display: block;
   width: 100%;
   height: 80px;
-  background: #d89d81;
+  background: #FCA7CC;
   color: white;
 }
 
@@ -35,7 +35,7 @@ header{
 .lay_li{
   display: inline-block;
   padding-right: 100px;
-  font-family: Lato;
+  font-family: 'Cinzel', serif;
   font-size: 24px;
 }
 
@@ -46,16 +46,17 @@ header{
 
 #lay_btn{
   width: 100px;
-  height: 55px;
-  margin: 16px;
+  height: 50px;
+  margin: 10px;
   padding-top: 5px;
+  padding-bottom: 5px;
   float: right;
   border: solid thin white;
   border-radius: 20px;
   background-color: white;
   text-decoration: none;
   text-align: center;
-  font-family: Lato;
+  font-family: 'Cinzel', serif;
   font-size: 24px;
   color: black;
 }
@@ -71,7 +72,7 @@ footer{
   position: relative;
   top: 800px;
   height: 80px;
-  background: #d89d81;
+  background: #FCA7CC;
 }
 
 /*Home page element */
@@ -81,21 +82,21 @@ footer{
   width: 100vw;
   overflow-y: hidden;
   height: 800px;
-  font-family: Lato;
+  font-family: 'Cinzel', serif;
   text-align: center;
   color: white;
 }
 
 #home_h1{
   margin: 0px 0px 40px 0px;
-  font-family: Lato;
+  font-family: 'Cinzel', serif;
   /*font-size: 24px;*/
   text-align: center;
   color: black;
 }
 
 #home_p{
-  font-family: Lato;
+  font-family: 'Cinzel', serif;
   font-size: 24px;
   color: black;
   text-align: center;
@@ -127,7 +128,25 @@ footer{
 }
 
 #cnt_submit{
-  margin-left: 12%;
+  margin-left: 35%;
+}
+
+#cnt_FAQ{
+    display: inline-block;
+    float: right;
+    width: 620px;
+    height: 470px;
+    border-left: solid medium black;
+}
+
+.cnt_p{
+  margin-left: 40px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  color: black;
 }
 
 /*Product page elements*/
