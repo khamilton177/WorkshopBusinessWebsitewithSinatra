@@ -21,31 +21,34 @@ li{
 
 footer{
   position: relative;
-  bottom: 1200px;
-  height: 80px;
+  /*bottom: 1200px;
+  height: 800px;*/
   background: #d89d81;
 }
 
-.potion9 {
+/*.container {
+ flex-wrap: wrap;
+
+}*/
+/*.potion9 {
   display: inline-block;
-  border: 2px solid black;
-  width: 400px;
+  /*border: 2px solid black;*/
+  /*width: 400px;
   height: 600px;
-  top: 50px;
+  top: 50px;*/
 }
 
-.penetraitt {
-  display: inline-block;
-  border: 2px solid black;
-  width: 400px;
+/*.penetraitt {
+  display: inline-block;*/
+  /*border: 2px solid black;*/
+  /*width: 400px;
   height: 600px;
-  margin-left: 20px;
-}
+  margin-left: 20px;*/
+/*}
 #p1 {
   text-align: center;
 }
 #img2 {
-  text-align: center;
   width: 250px;
-  height: 300px;
-}
+  height: 300px;*/
+/*}*/
