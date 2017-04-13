@@ -118,11 +118,73 @@ footer{
   padding-right: 10px;
 }
 
-#cnt_submit{
+#cnt_submit {
   margin-left: 12%;
 }
 
 /*Product page elements*/
 
 
+
 /*Gallery page elements*/
+/*.gall_container {
+  width: 200px;
+  height: 200px;
+}*/
+
+/*.gall_foolproof {
+  margin: auto;
+  display: flex;
+  flex-direction: row
+  flex-grow: 1;
+}*/
+
+#gall_img1 {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  background-image: url("/images/floatingpic.gif");
+  background-repeat: no-repeat;
+  height:300px;
+  width: 800px;
+  z-index: 2;
+
+}
+
+/*#gall_img2 {
+  position: absolute;
+  background-image: url("/images/foolproof.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 400px;
+}
+
+#gall_img3 {
+  position: absolute;
+  background-image: url("/images/baremin.jpg");
+  background-repeat: no-repeat;
+  bottom: right;
+  height: 500px;
+  width: 500px;
+}
+
+#gall_img4 {
+  background-image: url("/images/2editorPick.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
+}
+
+#gall_img5 {
+  background-image: url("/images/editorsPic3.jpg");
+  background-repeat: no-repeat;
+  height: 1500px;
+  width: 800px;
+}
+
+#gall_img6 {
+  background-image: url("/images/EditorsMAC4.png");
+  background-repeat: no-repeat;
+  height: 1500px;
+  width: 800px;
+}*/
