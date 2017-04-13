@@ -18,5 +18,6 @@ end
 
 post "/form-response" do
   params.inspect
-  redirect "/Contact"
+  email.rb
+  # redirect "/Contact"
 end
