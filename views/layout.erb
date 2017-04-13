@@ -6,18 +6,20 @@
     <link rel="stylesheet" href="beauty.css">
   </head>
   <body>
-      <div id="container">
+      <div id="lay_container">
         <header>
-          <nav>
-              <ul>
-                <li><a href="/" target="/">Home</a></li>
-                <li><a href="/product" target="/product">Product Page</a></li>
-                <li><a href="/Gallery" target="/Gallery">Beauty Gallery</a></li>
-                <li><a href="/Contact" target="/Contact">Contact Us</a></li>
+          <nav id="lay_nav">
+              <ul id="lay_ul">
+                <li class="lay_li"><a class="lay_a" href="/">Home</a></li>
+                <li class="lay_li"><a class="lay_a" href="/product">Products</a></li>
+                <li class="lay_li"><a class="lay_a" href="/Gallery">Gallery</a></li>
               </ul>
+              <a id="lay_btn" href="/Contact">Contact Us</a>
           </nav>
         </header>
+        <div id="lay_main">
         <%= yield%>
+        <div>
         <footer>
         </footer>
       </div>
