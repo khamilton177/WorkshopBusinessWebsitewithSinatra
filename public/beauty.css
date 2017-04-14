@@ -45,7 +45,7 @@ header{
 }
 
 #lay_btn{
-  width: 100px;
+  width: 120px;
   height: 50px;
   margin: 10px;
   padding-top: 5px;
@@ -149,7 +149,7 @@ footer{
   color: black;
 }
 
-/*Product page elements*/
+/*Product page elements************/
 h1 {
   text-align: center;
   position: relative;
@@ -166,7 +166,8 @@ h1 {
   width: 300px;
   height: 300px;
   position: relative;
-  left: 660px;
+  bottom: -360px;
+  left: 1100px;
 }
 
 #pro_img0 {
@@ -181,7 +182,7 @@ h1 {
   width: 500px;
   height: 400px;
   position: relative;
-  left: 660px;
+  left: 1660px;
 }
 
 #pro_img4 {
@@ -196,14 +197,19 @@ h1 {
 
 h2 {
   text-align: center;
-}  
+  position: relative;
+  right: 38px;
+}
 
 #pro_h1 {
-
   text-align: center;
-  /*position: relative;
-  top: -100px;*/
 }
+
+#pro_h3 {
+  margin: auto;
+}
+
+
 #gall_img1 {
   margin-top: 0px;
   position: relative;
@@ -226,4 +232,49 @@ h2 {
   text-align: center;
   position: relative;
   /*top: -100px;*/
+}
+
+/*bootstrap*/
+#myCarousel {
+  width: 900px;
+  height: 500px;
+  top: -1000px;
+  margin: 370px 370px;
+  position: relative;
+}
+.item {
+  width: 70%;
+  margin: auto;
+  background-size: contain;
+}
+
+/*image for the bootstrap home.erb page*/
+#lay_img1, #lay_img2, #lay_img3 {
+  width: 85%;
+  height: 500px;
+  margin: 0px 5000px 5000px 0px;
+}
+
+#home_logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 700px;
+  bottom: -40px;
+
+}
+
+/*text align product.erb title*/
+#pro_p1, #pro_p5, #pro_p8, #pro_p11, #pro_p15, #pro_p18, #pro_p24, #pro_p26, #pro_p29, #pro_p33, #pro_p36 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.pro_container {
+  font-size: 20px;
+  width: 900px;
+  /*height: 600px;*/
+  position: relative;
+  top: -20px;
+  right: -100px;
 }
