@@ -1,8 +1,8 @@
 require 'sendgrid-ruby'
 
-from = SendGrid::Email.new(email: 'kerryjae@live.com')
-subject = 'Hello World from the SendGrid Ruby Library!'
-to = SendGrid::Email.new(email: 'Kerryjae@live.com')
+from = SendGrid::Email.new(email: params[:from])
+subject = params[:subject]
+to = SendGrid::Email.new(email: "kerryjae@live.com")
 content = SendGrid::Content.new(type: 'text/plain', value: params[:content])
 mail = SendGrid::Mail.new(from, subject, to, content)
 
